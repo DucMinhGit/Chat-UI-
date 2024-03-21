@@ -4,7 +4,7 @@ import PageContainer from '../components/PageContainer';
 import { SIZES, images, FONTS } from '../constants';
 import Button from '../components/Button';
 
-const Walkthourgh = ({ navigation }) => {
+const Walkthrough = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <PageContainer>
@@ -52,4 +52,4 @@ const Walkthourgh = ({ navigation }) => {
   );
 };
 
-export default Walkthourgh;
+export default Walkthrough;

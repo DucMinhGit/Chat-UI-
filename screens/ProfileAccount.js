@@ -11,7 +11,7 @@ const ProfileAccount = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <PageContainer>
-        <PageTitle title="Your Profile" onPress={() => navigation.navigate('Vefification')} />
+        <PageTitle title="Your Profile" onPress={() => navigation.navigate('Verification')} />
         <View style={{ flex: 1, alignItems: 'center' }}>
           <View
             style={{
@@ -23,7 +23,7 @@ const ProfileAccount = ({ navigation }) => {
               justifyContent: 'center',
             }}
           >
-            <AntDesign name="user" size={64} color="111" />
+            <AntDesign name="user" size={64} color="#111" />
             <View
               style={{
                 position: 'absolute',
@@ -45,6 +45,7 @@ const ProfileAccount = ({ navigation }) => {
                 marginVertical: 12,
                 marginBottom: 48,
               }}
+              onPress={() => navigation.navigate('BottomTabNavigation')}
             />
           </View>
         </View>

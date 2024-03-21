@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { COLORS, FONTS } from '../constants';
-import { Contacts } from '../screens';
+import { Chats, Contacts, More } from '../screens';
 import { FontAwesome, Feather, Ionicons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
@@ -58,7 +58,7 @@ const BottomTabNavigation = () => {
       />
       <Tab.Screen
         name="Chats"
-        component={Contacts}
+        component={Chats}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
@@ -90,7 +90,7 @@ const BottomTabNavigation = () => {
       />
       <Tab.Screen
         name="More"
-        component={Contacts}
+        component={More}
         options={{
           tabBarIcon: ({ focused }) => {
             return (

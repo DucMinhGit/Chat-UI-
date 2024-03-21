@@ -2,7 +2,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { PhoneNumber, ProfileAccount, Verification, Walkthourgh } from './screens';
+import { PhoneNumber, ProfileAccount, Verification, Walkthrough } from './screens';
 import { useFonts } from 'expo-font';
 import { useCallback } from 'react';
 
@@ -39,9 +39,9 @@ export default function App() {
           screenOptions={{
             headerShown: false,
           }}
-          initialRouteName="Walkthourgh"
+          initialRouteName="Walkthrough"
         >
-          <Stack.Screen name="Walkthourgh" component={Walkthourgh} />
+          <Stack.Screen name="Walkthrough" component={Walkthrough} />
           <Stack.Screen name="Verification" component={Verification} />
           <Stack.Screen name="ProfileAccount" component={ProfileAccount} />
           <Stack.Screen name="PhoneNumber" component={PhoneNumber} />

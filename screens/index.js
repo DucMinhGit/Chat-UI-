@@ -1,6 +1,6 @@
 import PhoneNumber from './PhoneNumber';
 import ProfileAccount from './ProfileAccount';
 import Verification from './Verification';
-import Walkthourgh from './Walkthourgh';
+import Walkthrough from './Walkthrough';
 
-export { Walkthourgh, PhoneNumber, ProfileAccount, Verification };
+export { Walkthrough, PhoneNumber, ProfileAccount, Verification };

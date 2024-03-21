@@ -1,8 +1,8 @@
 import { View, Text, Image } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import PageContainer from '../components/PageContainer';
 import { SIZES, images, FONTS } from '../constants';
 import Button from '../components/Button';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Walkthrough = ({ navigation }) => {
   return (

@@ -6,6 +6,7 @@ export const COLORS = {
   secondary: '#0F1828',
   white: '#FFFFFF',
   secondaryWhite: '#F7F7FC',
+  tertiaryWhite: '#fafafa',
   green: '#2CC069',
   black: '#000000',
   secondaryBlack: '#0F1828',
